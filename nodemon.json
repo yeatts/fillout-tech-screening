@@ -1,0 +1,7 @@
+{
+  "watch": [
+    "src",
+    ".env"
+  ],
+  "exec": "ts-node-dev -r tsconfig-paths/register --transpile-only ./src/app.ts"
+}
